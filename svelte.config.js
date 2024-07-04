@@ -1,12 +1,12 @@
 import adapter from '@sveltejs/adapter-auto';
-import preprocess from 'svelte-preprocess';
+import { sveltePreprocess } from 'svelte-preprocess';
 
 const config = {
 	extensions: ['.svelte'],
 	// Consult https://kit.svelte.dev/docs/integrations#preprocessors
 	// for more information about preprocessors
 	preprocess: [
-		preprocess({
+		sveltePreprocess({
 			scss: {
 				prependData: '@use "src/vars.scss" as *;'
 			}
