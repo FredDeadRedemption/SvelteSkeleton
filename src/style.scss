@@ -1,0 +1,41 @@
+*,
+*::after,
+*::before {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: $montserrat;
+}
+
+html,
+body {
+	min-height: 100vh;
+	overflow-x: hidden;
+	background-color: whitesmoke;
+}
+
+* {
+	-webkit-tap-highlight-color: transparent;
+
+	&:focus,
+	&:active {
+		outline: none;
+	}
+}
+
+li {
+	list-style: none;
+}
+
+a {
+	text-decoration: none;
+}
+
+// fix auto-zooming on input fields
+@media (max-width: $breakpoint-mobile) {
+	input,
+	select:focus,
+	textarea {
+		font-size: 16px !important;
+	}
+}
