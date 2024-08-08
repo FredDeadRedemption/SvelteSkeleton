@@ -1,6 +1,5 @@
 <div id="wrap">
-	<h1>Fredsta's sveltekit setup</h1>
-	<p>Visit <a href="https://kit.svelte.dev">docs</a> to read the documentation</p>
+	<a href="/Matas-gavekort.pdf" target="_blank" download>Download</a>
 </div>
 
 <style lang="scss">
@@ -12,15 +11,5 @@
 		justify-content: center;
 		align-items: center;
 		gap: 20px;
-	}
-	h1 {
-		font-size: 3rem;
-		color: $primary;
-	}
-	p {
-		font-size: 2rem;
-	}
-	a {
-		text-decoration: underline;
 	}
 </style>
