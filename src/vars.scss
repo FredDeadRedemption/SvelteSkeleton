@@ -18,8 +18,8 @@ $grey-ultradark-dark: #f0f2f6;
 $grey-black-dark: #f5f6f7;
 
 // Colors
-$primary: crimson;
-$primary-hover: rgb(241, 36, 77);
+$primary: #5fe37d;
+$primary-hover: #5fe37d;
 
 // status colors
 $ok: #36b37e;
@@ -48,6 +48,9 @@ $montserrat: 'Montserrat', sans-serif;
 
 @import url('https://fonts.googleapis.com/css?family=Raleway:300,400');
 $raleway: 'Raleway', sans-serif;
+
+@import url('https://fonts.googleapis.com/css2?family=Nixie+One&family=Share+Tech+Mono&display=swap');
+$robco: 'Share Tech Mono', sans-serif;
 
 $breakpoint-mobile: 480px;
 $breakpoint-tablet: 768px;
